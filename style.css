@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-color-o {
+    background-color: rgb(29, 35, 193);
+}
+
+.Text-align-c {
+    text-align: center;
+    color: white;
+}
+
+.main-area {
+    margin-left: 0;
+}
+
+.btn-submit {
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.btn-submit:hover {
+    color: white;
+    font-size: 20px;
+    background-color: black;
+}
+
+.header-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 6px 0px;
+}
+
+.src-btn {
+    margin-right: 70px;
+    padding: 5px 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.Search {
+    outline: none;
+    border: none;
+}
+
+.Navigation {
+    display: flex;
+}
+
+.Navigation li {
+    list-style: none;
+}
+
+.Navigation li a {
+    text-decoration: none;
+    color: darkslategray;
+    padding-left: 50px;
+    color: white;
+}
+
+.search {
+    justify-content: end;
+}
+
+.Insert-area li {
+    background-color: rgb(215, 115, 115);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+
+.Insert-area li a {
+    color: whitesmoke;
+    font-weight: 300;
+}
+
+.Insert-area {
+    display: none;
+    width: 150px;
+    padding-top: 10px;
+}
+
+.insert-focus:hover .Insert-area {
+    display: block;
+    position: absolute;
+}
+
+.home-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.online-class {
+    font-size: 45px;
+    margin-left: 40px;
+    font-style: italic;
+}
+
+.home-area img {
+    border-bottom-left-radius: 200px;
+    width: 750px;
+    height: 700px;
+
+}
+
+.bg-color {
+    background-color: aquamarine;
+}
+
+.text-color {
+    color: red;
+}
+
+.Course-list {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.Course-list th {
+    padding: 8px 0px;
+    background-color: rgb(16, 127, 101);
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.Course-list td {
+    font-size: 30px;
+}
+
+.Course-list tr:nth-child(odd) {
+    background-color: #ddd;
+}
+
+.Course-list th,
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.padding-area {
+    padding: 8px 2px;
+}
+
+.padding-area-size {
+    padding: 4px 4px;
+}
+
+.padding-area-size-big {
+    padding: 8px 22px;
+}
+
+.Submit {
+    padding: 7px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Submit:hover {
+    background-color: black;
+    color: white;
+}
+
+.Add-class-link {
+    margin-left: 38px;
+}
+
+footer {
+    background-color: aquamarine;
+}
+
+.online-class-m {
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 20px;
+}

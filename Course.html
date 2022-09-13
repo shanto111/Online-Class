@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="nav-area">
+        <div class="header-area">
+            <div>
+                <ul class="Navigation">
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li class="insert-focus">
+                        <a href="#">Insert</a>
+                        <ul class="Insert-area">
+                            <li>
+                                <a href="./Course.html">Course</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">View</a>
+                    </li>
+                    <li>
+                        <a href="">Report</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="src-btn">
+                <input class="Search" type="text" id="tbn" placeholder="Search">
+                <label for="tbn"><i class="fa-solid fa-magnifying-glass"></i></label>
+            </div>
+        </div>
+    </section>
+    <section class="bg-color-o">
+        <h1 class="Text-align-c">Online Class Management System</h1>
+    </section>
+
+    <form action="connection.php" method="post">
+        <div class="class-area table-section" id="Course">
+            <table class="Course-list">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Course Id</th>
+                        <th>Class Link</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input class="padding-area" type="date" name="datetime" id="datetime" required>
+                        </td>
+                        <td>
+                            <select class="padding-area-size-big" name="course" id="Course" required>
+                                <option value="" disabled selected>Select One</option>
+                                <option value="CSC437">CSC437</option>
+                                <option value="CSC329">CSC329</option>
+                                <option value="CSC330">CSC330</option>
+                                <option value="CSC383">CSC383</option>
+                                <option value="CSC384">CSC384</option>
+                                <option value="CSC391">CSC391</option>
+                                <option value="CSC434">CSC434</option>
+                                <option value="CSC183">CSC283</option>
+                                <option value="CSC184">CSC284</option>
+                                <option value="CSC183">CSC183</option>
+                                <option value="CSC184">CSC184</option>
+                                <option value="CSC103">CSC103</option>
+                                <option value="CSC104">CSC104</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label class="Add-class-link" for="Add-Class-link">Add Class link</label>
+                            <input type="url" name="addlink" id="add-link" class="padding-area-size"> <br>
+                            <!-- <label for="Update-Class-link">Update Class link</label>
+                            <input type="url" name="updateLink" id="Update-class" class="padding-area-size"> -->
+                        </td>
+                        <td>
+                            <input type="radio" name="status" id="goal">
+                            <label for="Status">Postponed</label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <input type="submit" value="Submit" class="btn-submit">
+    </form>
+
+</body>
+
+</html>
